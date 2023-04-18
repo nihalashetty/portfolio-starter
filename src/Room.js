@@ -127,7 +127,7 @@ export default function Room (props) {
             position={[-112.54, 29.87, -70.28]}
           ><meshBasicMaterial map={baked} />
             <Html occlude={'blending'} transform wrapperClass="htmlScreen" distanceFactor={36} position={[0.35, 0.2, 0.1]} rotation-y={1.57}>
-              <iframe onPointerLeave={(e) => {console.log(e.target)}} onPointerEnter={(e) => {console.log(e); animateToPosters('computer1')}} src="https://threejs.org/" />
+              <iframe onPointerLeave={(e) => {console.log(e.target)}} onPointerEnter={(e) => {console.log(e); animateToPosters('computer1')}} src="https://nihals-computer.netlify.app/" />
             </Html>
           </mesh>
           <mesh
